@@ -18,14 +18,19 @@ public class AtletaManager {
         int opcao;
 
         do {
-            System.out.println("MENU");
-            System.out.println("1 - Cadastrar atleta");
-            System.out.println("2 - Listar atleta");
-            System.out.println("3 - Listar atleta por altura decrescente");
-            System.out.println("4 - Remover atleta");
-            System.out.println("5 - Pesquisar atleta por apelido");
-            System.out.println("6 - Sair");
+            System.out.println("╔═══════════════════════════════╗");
+            System.out.println("║            MENU                 ║");
+            System.out.println("║   1 - Cadastrar atleta          ║");
+            System.out.println("║   2 - Listar atleta             ║");
+            System.out.println("║   3 - Listar atleta por altura  ║");
+            System.out.println("║       decrescente               ║");
+            System.out.println("║   4 - Remover atleta            ║");
+            System.out.println("║   5 - Pesquisar atleta por      ║");
+            System.out.println("║       apelido                   ║");
+            System.out.println("║   6 - Sair                      ║");
+            System.out.println("╚═══════════════════════════════╝");
             System.out.print("Escolha uma opção: ");
+
             opcao = scanner.nextInt();
             scanner.nextLine();
             switch (opcao) {
